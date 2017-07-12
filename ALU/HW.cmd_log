@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family artix7 -refsym HW C:/Xilinx/Projects/ALU/HW.sch C:/Xilinx/Projects/ALU/HW.sym 
+sch2hdl -intstyle ise -family artix7 -verilog HW_drc.vf -w C:/Xilinx/Projects/ALU/HW.sch 
+sch2hdl -intstyle ise -family artix7 -verilog HW.vf -w C:/Xilinx/Projects/ALU/HW.sch 
+sch2verilog -intstyle ise -family artix7 -tionly {} -tiext tfi -w C:/Xilinx/Projects/ALU/HW.sch HW.tfi 

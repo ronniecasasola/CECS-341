@@ -1,0 +1,9 @@
+[Inputs]
+=FuncCode[5:0]=
+=ALU_Op[1:0]=
+[Outputs]
+=ALU_Ctl[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALU_Control
+

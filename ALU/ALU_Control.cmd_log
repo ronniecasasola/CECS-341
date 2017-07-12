@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Xilinx/Projects/ALU/ALU_Control.v -lang verilog -prj ALU -o ALU_Control.spl -module ALU_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALU_Control.spl C:/Xilinx/Projects/ALU/ALU_Control.sym 
+vhdtdtfi -lib work C:/Xilinx/Projects/ALU/ALU_Control.v -lang verilog -prj ALU -o ALU_Control.spl -module ALU_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALU_Control.spl C:/Xilinx/Projects/ALU/ALU_Control.sym 

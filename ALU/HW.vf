@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : HW.vf
+// /___/   /\     Timestamp : 02/21/2017 02:09:22
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family artix7 -verilog C:/Xilinx/Projects/ALU/HW.vf -w C:/Xilinx/Projects/ALU/HW.sch
+//Design Name: HW
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HW(ALUOp, 
+          Data1, 
+          Data2, 
+          Data3, 
+          FuncCode, 
+          MEMData, 
+          Sel0, 
+          Sel1, 
+          D_Out, 
+          Zero);
+
+    input ALUOp;
+    input Data1;
+    input Data2;
+    input Data3;
+    input FuncCode;
+    input MEMData;
+    input Sel0;
+    input Sel1;
+   output D_Out;
+   output Zero;
+   
+   
+   HW  XLXI_1 (.ALUOp(ALUOp), 
+              .Data1(Data1), 
+              .Data2(Data2), 
+              .Data3(Data3), 
+              .FuncCode(FuncCode), 
+              .MEMData(MEMData), 
+              .Sel0(Sel0), 
+              .Sel1(Sel1), 
+              .D_Out(D_Out), 
+              .Zero(Zero));
+endmodule
