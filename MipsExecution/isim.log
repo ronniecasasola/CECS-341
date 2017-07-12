@@ -1,0 +1,77 @@
+ISim log file
+Running: C:\Xilinx\Projects\MipsExecution\CPU_EU_Tester_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/Projects/MipsExecution/CPU_EU_Tester_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Ronnie, on host RONNIE-PC.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+  
+---- Test R- Type Instructions -----
+  
+Test Case 1: nor $30, $31, $31
+Expected result: $30 <- 0xecbd8c79
+Actual result: $30 = 0xecbd8c79
+
+Test Case 2: slt $29, $31, $30
+Expected result: $29 <- 0x1
+Actual result: $29 = 0x00000001
+  
+Test Case 3: or $28, $30, $31
+Expected result: $28 <- 0xffffffff
+Actual result: $28 = 0xffffffff
+  
+Test Case 4: and $27, $28, $29
+Expected result: $27 <- 0x00000001
+Actual result: $27 = 0x00000001
+  
+Test Case 5:  sub $26, $30, $27
+Expected result: $26 <- 0xecbd8c78
+Actual result: $26 = 0xecbd8c78
+  
+Test Case 6:  add $25, $31, $31
+Expected result: $25 <- 0x2684e70c
+Actual result: $25 = 0x2684e70c
+  
+  
+---- Test I- Type Instructions -----
+  
+Test Case 7:  lw $24, 4($0)
+Expected result: $24 <- 0x12341234
+Expected result: RAM_Address = 0x00000004
+Actual result: $24 = 0x12341234
+Actual result : RAM_Address = 0x00000004
+  
+Test Case 8:  sw $31, 12($24)
+Expected result: Data_to_RAM <- 0x13427386
+Expected result: RAM_Address = 0x12341240
+Actual result: Data_to_RAM = 0x13427386
+Actual result : RAM_Address = 0x12341240
+  
+---- Test I- Type BEQ Instructions -----
+  
+Test Case 9: beq $24, $24, 0x0003 
+Expected result: ALU Result <- 0x00000000
+Expected result: Zero <- 1
+Actual result: ALU Result = 0x00000000
+Actual result: Zero = 1

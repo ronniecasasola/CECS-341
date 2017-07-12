@@ -1,0 +1,7 @@
+verilog work "../RegisterFile/RegFile32.v"
+verilog work "SignExtend_16to32.v"
+verilog work "../Lab6/mux2_5.v"
+verilog work "../Lab6/mux2_32.v"
+verilog work "../ALU/ALU_Control.v"
+verilog work "../ALU/ALU.v"
+verilog work "CPU_EU.v"
