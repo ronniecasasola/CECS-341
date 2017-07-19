@@ -1,0 +1,83 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Xilinx/Projects/MIPS_Single_Cycle_Processor/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to C:/Xilinx/Projects/MIPS_Single_Cycle_Processor/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: MIPS_Processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Xilinx\Projects\RegisterFile\RegFile32.v" into library work
+Parsing module <RegFile32>.
+Analyzing Verilog file "C:\Xilinx\Projects\MipsExecution\SignExtend_16to32.v" into library work
+Parsing module <SignExtend_16to32>.
+Analyzing Verilog file "C:\Xilinx\Projects\Lab6\mux2_5.v" into library work
+Parsing module <Mux2to1_5bit>.
+Analyzing Verilog file "C:\Xilinx\Projects\Lab6\mux2_32.v" into library work
+Parsing module <Mux2to1_32bit>.
+Analyzing Verilog file "C:\Xilinx\Projects\Lab4\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Xilinx\Projects\ALU\ALU_Control.v" into library work
+Parsing module <ALU_Control>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Core\IMEM_128x8.v" into library work
+Parsing module <IMEM_128x8>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Core\DMEM_256x8.v" into library work
+Parsing module <DMEM_256x8>.
+WARNING:HDLCompiler:991 - "C:\Xilinx\Projects\MIPS_Core\DMEM_256x8.v" Line 24: Event expressions must result in a singular type
+Analyzing Verilog file "C:\Xilinx\Projects\MipsExecution\CPU_EU.v" into library work
+Parsing module <CPU_EU>.
+Analyzing Verilog file "C:\Xilinx\Projects\ControlUnit\Control.v" into library work
+Parsing module <Control>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Single_Cycle_Processor\ShiftLeft2_32bit.v" into library work
+Parsing module <ShiftLeft2_32bit>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Single_Cycle_Processor\ProgramCounter.v" into library work
+Parsing module <ProgramCounter>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Core\MIPS_Core.v" into library work
+Parsing module <MIPS_Core>.
+Analyzing Verilog file "C:\Xilinx\Projects\MIPS_Single_Cycle_Processor\MIPS_Processor.v" into library work
+Parsing module <MIPS_Processor>.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.45 secs
+ 
+--> 
+
+Total memory usage is 224720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

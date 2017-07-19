@@ -1,0 +1,328 @@
+ISim log file
+Running: C:\Xilinx\Projects\MIPS_Single_Cycle_Processor\MIPS_Processor_Tester_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/Projects/MIPS_Single_Cycle_Processor/MIPS_Processor_Tester_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Ronnie, on host RONNIE-PC.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at time 5.0ns
+Unanticipated instruction has been executed
+
+at time 15.0ns
+Unanticipated instruction has been executed
+
+at time 25.0ns
+Unanticipated instruction has been executed
+
+at time 35.0ns
+Unanticipated instruction has been executed
+
+at time 45.0ns
+Unanticipated instruction has been executed
+
+at time 55.0ns
+Unanticipated instruction has been executed
+
+at time 65.0ns
+Unanticipated instruction has been executed
+
+at time 75.0ns
+Unanticipated instruction has been executed
+
+at time 85.0ns
+Unanticipated instruction has been executed
+
+at time 95.0ns
+Unanticipated instruction has been executed
+
+at time 105.0ns
+Unanticipated instruction has been executed
+
+at time 115.0ns
+Unanticipated instruction has been executed
+
+at time 125.0ns
+Unanticipated instruction has been executed
+
+at time 135.0ns
+Unanticipated instruction has been executed
+
+at time 145.0ns
+Unanticipated instruction has been executed
+
+at time 155.0ns
+Unanticipated instruction has been executed
+
+at time 165.0ns
+Unanticipated instruction has been executed
+
+at time 175.0ns
+Unanticipated instruction has been executed
+
+at time 185.0ns
+Unanticipated instruction has been executed
+
+at time 195.0ns
+Unanticipated instruction has been executed
+
+at time 205.0ns
+Unanticipated instruction has been executed
+
+at time 215.0ns
+Unanticipated instruction has been executed
+
+at time 225.0ns
+Unanticipated instruction has been executed
+
+at time 235.0ns
+Unanticipated instruction has been executed
+
+at time 245.0ns
+Unanticipated instruction has been executed
+
+at time 255.0ns
+Unanticipated instruction has been executed
+
+at time 265.0ns
+Unanticipated instruction has been executed
+
+at time 275.0ns
+Unanticipated instruction has been executed
+
+at time 285.0ns
+Unanticipated instruction has been executed
+
+at time 295.0ns
+Unanticipated instruction has been executed
+
+at time 305.0ns
+Unanticipated instruction has been executed
+
+at time 315.0ns
+Unanticipated instruction has been executed
+
+at time 325.0ns
+Unanticipated instruction has been executed
+
+at time 335.0ns
+Unanticipated instruction has been executed
+
+at time 345.0ns
+Unanticipated instruction has been executed
+
+at time 355.0ns
+Unanticipated instruction has been executed
+
+at time 365.0ns
+Unanticipated instruction has been executed
+
+at time 375.0ns
+Unanticipated instruction has been executed
+
+at time 385.0ns
+Unanticipated instruction has been executed
+
+at time 395.0ns
+Unanticipated instruction has been executed
+
+at time 405.0ns
+Unanticipated instruction has been executed
+
+at time 415.0ns
+Unanticipated instruction has been executed
+
+at time 425.0ns
+Unanticipated instruction has been executed
+
+at time 435.0ns
+Unanticipated instruction has been executed
+
+at time 445.0ns
+Unanticipated instruction has been executed
+
+at time 455.0ns
+Unanticipated instruction has been executed
+
+at time 465.0ns
+Unanticipated instruction has been executed
+
+at time 475.0ns
+Unanticipated instruction has been executed
+
+at time 485.0ns
+Unanticipated instruction has been executed
+
+at time 495.0ns
+Unanticipated instruction has been executed
+
+at time 505.0ns
+Unanticipated instruction has been executed
+
+at time 515.0ns
+Unanticipated instruction has been executed
+
+at time 525.0ns
+Unanticipated instruction has been executed
+
+at time 535.0ns
+Unanticipated instruction has been executed
+
+at time 545.0ns
+Unanticipated instruction has been executed
+
+at time 555.0ns
+Unanticipated instruction has been executed
+
+at time 565.0ns
+Unanticipated instruction has been executed
+
+at time 575.0ns
+Unanticipated instruction has been executed
+
+at time 585.0ns
+Unanticipated instruction has been executed
+
+at time 595.0ns
+Unanticipated instruction has been executed
+
+at time 605.0ns
+Unanticipated instruction has been executed
+
+at time 615.0ns
+Unanticipated instruction has been executed
+
+at time 625.0ns
+Unanticipated instruction has been executed
+
+at time 635.0ns
+Unanticipated instruction has been executed
+
+at time 645.0ns
+Unanticipated instruction has been executed
+
+at time 655.0ns
+Unanticipated instruction has been executed
+
+at time 665.0ns
+Unanticipated instruction has been executed
+
+at time 675.0ns
+Unanticipated instruction has been executed
+
+at time 685.0ns
+Unanticipated instruction has been executed
+
+at time 695.0ns
+Unanticipated instruction has been executed
+
+at time 705.0ns
+Unanticipated instruction has been executed
+
+at time 715.0ns
+Unanticipated instruction has been executed
+
+at time 725.0ns
+Unanticipated instruction has been executed
+
+at time 735.0ns
+Unanticipated instruction has been executed
+
+at time 745.0ns
+Unanticipated instruction has been executed
+
+at time 755.0ns
+Unanticipated instruction has been executed
+
+at time 765.0ns
+Unanticipated instruction has been executed
+
+at time 775.0ns
+Unanticipated instruction has been executed
+
+at time 785.0ns
+Unanticipated instruction has been executed
+
+at time 795.0ns
+Unanticipated instruction has been executed
+
+at time 805.0ns
+Unanticipated instruction has been executed
+
+at time 815.0ns
+Unanticipated instruction has been executed
+
+at time 825.0ns
+Unanticipated instruction has been executed
+
+at time 835.0ns
+Unanticipated instruction has been executed
+
+at time 845.0ns
+Unanticipated instruction has been executed
+
+at time 855.0ns
+Unanticipated instruction has been executed
+
+at time 865.0ns
+Unanticipated instruction has been executed
+
+at time 875.0ns
+Unanticipated instruction has been executed
+
+at time 885.0ns
+Unanticipated instruction has been executed
+
+at time 895.0ns
+Unanticipated instruction has been executed
+
+at time 905.0ns
+Unanticipated instruction has been executed
+
+at time 915.0ns
+Unanticipated instruction has been executed
+
+at time 925.0ns
+Unanticipated instruction has been executed
+
+at time 935.0ns
+Unanticipated instruction has been executed
+
+at time 945.0ns
+Unanticipated instruction has been executed
+
+at time 955.0ns
+Unanticipated instruction has been executed
+
+at time 965.0ns
+Unanticipated instruction has been executed
+
+at time 975.0ns
+Unanticipated instruction has been executed
+
+at time 985.0ns
+Unanticipated instruction has been executed
+
+at time 995.0ns
+Unanticipated instruction has been executed
+
